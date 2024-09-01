@@ -45,21 +45,21 @@ function Question_answer() {
       {data?.results?.map((ele) => {
         return (
           <>
-            <div style={{display: 'flex'}} >
-              <span>
-                <h2 style={{marginLeft:"2px"}}>{Total_number_of_question}. </h2>
-              </span>
-              <span>
-                {/* regex used for remove special character from question */}
-                <h2 style={{marginLeft:"5px"}}>{ele?.question.replace(/[^a-zA-Z0-9 ]/g, "")} ?</h2>
-              </span>
+            <div className="question-container">
+              {/* regex used for remove special character from question */}
+              <h2 className="question-title">
+                {Total_number_of_question}.{" "}
+                {ele?.question.replace(/[^a-zA-Z0-9 ]/g, "")} ?
+              </h2>
+              <div className="checkbox-wrapper">
+                <UserContext.Provider value={fetchData}>
+                  <Options data={data?.results} fetchData={fetchData} />
+                </UserContext.Provider>
+              </div>
             </div>
           </>
         );
       })}
-      <UserContext.Provider value={fetchData}>
-        <Options data={data?.results} fetchData={fetchData} />
-      </UserContext.Provider>
     </>
   );
 }

@@ -3,18 +3,16 @@ import Checkbox from "@mui/material/Checkbox";
 import Sumbit_result from "./SumbitResult";
 let select_deselect_option = [];
 
-
 //This Component load The Options of Quizz
 
-function Options({
-  data,
-  show_right_answer,
-}) {
+function Options({ data, show_right_answer }) {
   const [checked, setChecked] = useState([]);
-  const [options_with_include_right_option,set_options_with_include_right_option] = useState();//Store the All right and wrong option 
-  const [right_answer, set_right_answer] = useState("");//Store the Right option(answer)
-  const randomNumber = Math.floor(Math.random() * 4);//Genrate random number 
-
+  const [
+    options_with_include_right_option,
+    set_options_with_include_right_option,
+  ] = useState(); //Store the All right and wrong option
+  const [right_answer, set_right_answer] = useState(""); //Store the Right option(answer)
+  const randomNumber = Math.floor(Math.random() * 4); //Genrate random number
 
   useEffect(() => {
     GenrateFinalOptions();
@@ -49,16 +47,15 @@ function Options({
       {options_with_include_right_option?.map((options) => {
         return (
           <>
-            <div>
-              <span>
-                <Checkbox
-                  checked={checked.includes(options)}
-                  value={options}
-                  onChange={(event) => handleChange(event)}
-                  inputProps={{ "aria-label": "controlled" }}
-                />
-              </span>
-              <span>{options}</span>
+            <div className="text-left checkbox-wrapper">
+              <Checkbox
+                checked={checked.includes(options)}
+                value={options}
+                onChange={(event) => handleChange(event)}
+                inputProps={{ "aria-label": "controlled" }}
+                className="checkbox"
+              />
+              <h4 className="checkbox-label">{options.replace(/[^a-zA-Z0-9 ]/g, "")}</h4>
             </div>
           </>
         );

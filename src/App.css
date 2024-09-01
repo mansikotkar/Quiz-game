@@ -1,0 +1,115 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container setup */
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff; /* Light blue background for a calming effect */
+}
+
+/* Quiz box with fade-in animation */
+.quiz-box {
+  text-align: center;
+  border: 2px solid #0f0f0f;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-in-out; /* Fade-in effect */
+}
+
+/* Title with a slight text-shadow */
+.quiz-title {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+
+/* Center the question and form on the page */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  }
+  
+  /* Style the question title */
+  .question-title {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+
+  .checkbox-wrapper {
+    white-space: nowrap
+  }
+  .checkbox {
+    vertical-align: top;
+    display:inline-block
+  }
+  .checkbox-label {
+   display:inline-block;
+    white-space:normal
+  }
+
+
+/* Center the final result and form on the page */
+.container-finalresult{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555555;
+    margin: 10px 0;
+}
+
+.count {
+    font-weight: bold;
+    color: #333333;
+}
+
+.correct {
+    color: #28a745;
+}
+
+.wrong {
+    color: #dc3545;
+}
+
+  
+
+  
+

@@ -7,8 +7,7 @@ function Sumbit_result({ right_answer, checked }) {
   right_answer_counter = JSON.parse(right_answer_counter);
   const [show_result_1, set_Show_result] = useState(false);
 
-
-  //Work on validation 
+  //Work on validation
   const Check_the_result = () => {
     if (checked.length == 0) {
       alert("Select one Option");
@@ -26,7 +25,7 @@ function Sumbit_result({ right_answer, checked }) {
   return (
     <>
       <Button
-        style={{margin:"10px"}}
+        style={{ margin: "10px" }}
         variant="contained"
         disabled={show_result_1}
         onClick={Check_the_result}

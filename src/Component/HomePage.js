@@ -14,24 +14,17 @@ function HomePage() {
 
   return (
     <>
-      <div
-        style={{
-        display: 'flex',
-        flexDirection: 'column', 
-        alignItems: 'center',
-        justifyContent: 'center',
-        border: '2px solid black',
-        padding: '20px',
-        width: '300px',
-        height: '150px', 
-        marginTop: '200px',
-        marginLeft: '500px',
-        }}
-      >
-        <h1>QUIZ GAME</h1>
-        <Button variant="contained" onClick={start_game}  style={{ marginTop: '10px' }}>
-          START
-        </Button>
+      <div className="quiz-container">
+        <div className="quiz-box">
+          <h1 className="quiz-title">QUIZ GAME</h1>
+          <Button
+            variant="contained"
+            onClick={start_game}
+            style={{ marginTop: "10px" }}
+          >
+            START
+          </Button>
+        </div>
       </div>
     </>
   );

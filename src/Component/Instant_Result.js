@@ -44,7 +44,7 @@ function Result({ show_result_1, right_answer, checked, set_Show_result }) {
           <h3 style={styles}>Your answer: {checked}</h3>
         </DialogContent>
         <Button variant="contained" onClick={NextQuestion}>
-          {TotalQuestions =="10" ?"Sumbit":"Next Question"}
+          {TotalQuestions == "10" ? "Sumbit" : "Next Question"}
         </Button>
       </Dialog>
     </div>
