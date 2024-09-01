@@ -49,7 +49,7 @@ function Question_answer() {
               {/* regex used for remove special character from question */}
               <h2 className="question-title">
                 {Total_number_of_question}.{" "}
-                {ele?.question.replace(/[^a-zA-Z0-9 ]/g, "")} ?
+                {ele?.question.replace(/(quot|039|[^a-zA-Z0-9 ])/g, "")} ?
               </h2>
               <div className="checkbox-wrapper">
                 <UserContext.Provider value={fetchData}>
