@@ -46,7 +46,7 @@ function Question_answer() {
         return (
           <>
             <div className="question-container">
-              {/* regex used for remove special character from question */}
+              {/* regex used for remove special character and quot/039 from question */}
               <h2 className="question-title">
                 {Total_number_of_question}.{" "}
                 {ele?.question.replace(/(quot|039|[^a-zA-Z0-9 ])/g, "")} ?
