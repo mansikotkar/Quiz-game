@@ -4,19 +4,19 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="/Image/Screenshot (60).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (60).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (61).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (61).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (62).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (62).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (63).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (63).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (64).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (64).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (65).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (65).png" alt="project-screenshot" width="400" height="400/">
 
-<img src="/Image/Screenshot (66).png" alt="project-screenshot" width="250" height="400/">
+<img src="/Image/Screenshot (66).png" alt="project-screenshot" width="400" height="400/">
 
   
   
