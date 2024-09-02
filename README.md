@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Quiz Game</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p id="description">The quiz game is an exciting and educational challenge where players test their general knowledge across a wide range of topics. The questions cover various subjects including history geography science culture and current events ensuring a comprehensive and engaging experience. The quiz features questions from all over the world allowing players to broaden their understanding of global affairs and cultures. Whether you're playing solo or competing with friends this quiz game offers a fun way to learn and discover new facts while challenging your intellect.</p>
 
-## Available Scripts
+<h2>Project Screenshots:</h2>
 
-In the project directory, you can run:
+<img src="/Image/Screenshot (60).png" alt="project-screenshot" width="250" height="400/">
 
-### `npm start`
+<img src="/Image/Screenshot (61).png" alt="project-screenshot" width="250" height="400/">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="/Image/Screenshot (62).png" alt="project-screenshot" width="250" height="400/">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="/Image/Screenshot (63).png" alt="project-screenshot" width="250" height="400/">
 
-### `npm test`
+<img src="/Image/Screenshot (64).png" alt="project-screenshot" width="250" height="400/">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="/Image/Screenshot (65).png" alt="project-screenshot" width="250" height="400/">
 
-### `npm run build`
+<img src="/Image/Screenshot (66).png" alt="project-screenshot" width="250" height="400/">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+  
+<h2>🧐 Features</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here're some of the project's best features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*   Total of 10 Questions: Each quiz session consists of 10 questions ensuring a concise and focused challenge for players.
+*   Instant Feedback: After each question is answered the player immediately sees whether their answer is correct or incorrect. This real-time feedback enhances engagement and learning.
+*   Final Score Summary: Once all 10 questions have been answered a final result summary is displayed. This includes the total number of correct and incorrect answers giving players a clear overview of their performance.
+*   Global Knowledge Base: Questions cover a wide range of general knowledge topics from around the world offering a diverse and educational experience.
+*   Interactive and User-Friendly Interface: The game provides an intuitive interface making it easy for players to focus on the questions and enjoy the experience.
+*   Replayable: The game can be replayed multiple times with different sets of questions keeping the challenge fresh and engaging.
 
-### `npm run eject`
+<h2>🛠️ Installation Steps:</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>1. Clone the repository:</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+https://github.com/mansikotkar/Quiz-game.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>2. Navigate to the project directory:</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+cd react-Quiz-game
+```
 
-## Learn More
+<p>3. Install dependencies</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p>4. Start the Project</p>
 
-### Code Splitting
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
+  
+<h2>💻 Built with</h2>
 
-### Analyzing the Bundle Size
+Technologies used in the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*   React js
+*   JavScript
+*   HTML
+*   CSS
+*   MUI
 
-### Making a Progressive Web App
+<h2>🛡️ License:</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT

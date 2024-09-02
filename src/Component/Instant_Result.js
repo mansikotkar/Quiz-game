@@ -32,6 +32,7 @@ function Result({ show_result_1, right_answer, checked, set_Show_result }) {
   const styles = {
     color: right_answer == checked ? "green" : "red",
   };
+  
   return (
     <div>
       <Dialog
