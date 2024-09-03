@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const UserContext = createContext();
 
 //Component Work on Api Call
-function Question_answer() {
+function QuestionAnswer() {
   let Total_number_of_question = localStorage.getItem(
     "Total_number_of_question"
   );
@@ -64,5 +64,5 @@ function Question_answer() {
   );
 }
 
-export default Question_answer;
+export default QuestionAnswer;
 export { UserContext };

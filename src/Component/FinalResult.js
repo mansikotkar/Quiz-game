@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 //2.Total Number Of Right Answers
 //3.Total Number Of Wrong Answers
 
-function Final_result() {
+function FinalResult() {
   let RightAanswerCount = localStorage.getItem("right_Answer_count"); //Get Total number of Right Answers
   RightAanswerCount = JSON.parse(RightAanswerCount);
 
@@ -44,4 +44,4 @@ function Final_result() {
   );
 }
 
-export default Final_result;
+export default FinalResult;

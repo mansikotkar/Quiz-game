@@ -1,14 +1,14 @@
 import { Button } from "@mui/material";
 import React, { useState } from "react";
-import Result from "./Instant_Result";
+import Result from "./InstantResult";
 
-function Sumbit_result({ right_answer, checked }) {
+function SumbitResult({ right_answer, checked }) {
   let right_answer_counter = localStorage.getItem("right_Answer_count");
   right_answer_counter = JSON.parse(right_answer_counter);
   const [show_result_1, set_Show_result] = useState(false);
 
   //Work on validation
-  const Check_the_result = () => {
+  const CheckResult = () => {
     if (checked.length == 0) {
       alert("Select one Option");
     } else {
@@ -28,7 +28,7 @@ function Sumbit_result({ right_answer, checked }) {
         style={{ margin: "10px" }}
         variant="contained"
         disabled={show_result_1}
-        onClick={Check_the_result}
+        onClick={CheckResult}
       >
         Sumbit
       </Button>
@@ -42,4 +42,4 @@ function Sumbit_result({ right_answer, checked }) {
   );
 }
 
-export default Sumbit_result;
+export default SumbitResult;

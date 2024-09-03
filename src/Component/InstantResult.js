@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
-import { UserContext } from "./Question_answer";
+import { UserContext } from "./QuestionAnswer";
 import { useNavigate } from "react-router-dom";
 
 //This Componet load The Instant Result Of Single Quiz

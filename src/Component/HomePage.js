@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function HomePage() {
   let ridireact = useNavigate();
 
-  const start_game = () => {
+  const startGame = () => {
     window.localStorage.setItem("right_Answer_count", JSON.stringify(0));
     window.localStorage.setItem("Total_number_of_question", JSON.stringify(1));
     ridireact("/question");
@@ -19,7 +19,7 @@ function HomePage() {
           <h1 className="quiz-title">QUIZ GAME</h1>
           <Button
             variant="contained"
-            onClick={start_game}
+            onClick={startGame}
             style={{ marginTop: "10px" }}
           >
             START
